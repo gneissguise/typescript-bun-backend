@@ -1,0 +1,18 @@
+{
+  "name": "typescript-bun-backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "bun-types": "1.4.0",
+    "typescript": "7.1.0-dev.20260824.1"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "0.9.0",
+    "hono": "4.13.4",
+    "zod": "4.4.3"
+  }
+}

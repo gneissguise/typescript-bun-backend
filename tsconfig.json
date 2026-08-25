@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // Target & environment
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "types": ["bun-types"],
+
+    // Module resolution (Bun-specific)
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "verbatimModuleSyntax": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+
+    // Type checking (TS 7.0: strict is default)
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    // Disabled by default in TS 7.0 — keep off to reduce noise
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noPropertyAccessFromIndexSignature": false
+  }
+}
